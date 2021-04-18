@@ -173,6 +173,7 @@ open class MXSegmentedControl: UIControl {
     }
     
     private func initialize() {
+        _scrollView.clipsToBounds = false
         _scrollView.canCancelContentTouches = true
         _scrollView.showsVerticalScrollIndicator = false
         _scrollView.showsHorizontalScrollIndicator = false
